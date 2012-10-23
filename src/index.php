@@ -4,10 +4,11 @@ error_reporting( E_ALL );
 
 define( 'DATA_FILE', '*.data.sqlite' );
 
+require_once( "conf/dev.config.php" );
 require_once( "Req.class.php" );
 require_once( "Data.class.php" );
 require_once( "Tpl.class.php" );
-require_once ( "Functions.php" );
+require_once( "Functions.php" );
 /**
   * Initialize
   */
@@ -31,7 +32,7 @@ if( isset($_GET['debug']) or !is_null($req->query('debug')) or strpos($_SERVER['
 	echo "</pre>";
 	exit;
 }
-$data->set( 'admin::password', $passwd_db = 'tada' );
+//$data->set( 'admin::password', $passwd_db = 'tada' );
 
 $scheme = $req->get('scheme');
 $pageItem = $req->get( 'path' );
@@ -164,7 +165,7 @@ if( $command == 'edit-template' ) {
 		}
 	}
 	$path = $req->get('path');
-	$etCon = file_get_contents( 'edit-template-tpl.html' );
+	$etCon = fetchDataPath( 'admin-tpl/edit-template-tpl.html' );
 	$etCon = processPageIncludes( $etCon, 1 );
 	$et = new Tpl( $etCon );
 	$et->set( 'status', $status );

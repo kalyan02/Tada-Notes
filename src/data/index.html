@@ -1,17 +1,20 @@
-a:2:{s:7:"content";s:2654:"[[set date:19 Oct 2010]]
+a:2:{s:7:"content";s:2763:"[[set date:24 Oct 2012]]
 
 About
 -----
 
 Tada notes is a simple note authoring tool, with facility for custom page templates.
 
-Page creation is as simple as opening this url [./edit:page/to/create.html](./edit:page/to/create.html). Content will essentially consist of a page title and page content, which will be placed inside a custom template.
+Page creation is as simple as opening one of these urls 
 
+ - [./edit:page/to/create.html](./edit:page/to/create.html). 
+ - [./page/to/create.html?edit](./page/to/create.html?edit)
+
+Content will essentially consist of a page title and page content, which will be placed inside a custom template.
 Content is authored/rendered using the [markdown syntax](http://daringfireball.net/projects/markdown/syntax)
+To edit this page you will have to use this [./edit:index.html](./edit:index.html)
 
-To edit this page you will have to use this [./edit:tada-notes.html](./edit:tada-notes.html)
-
-Tada notes is written in `php` and all data is stored in an `sqlite database` in the form of key value pairs. The entire thing consists of 6 files. `.htaccess`, `index.php`, `notes.data.sqlite`, `markdown.php`, `edit-template-tpl.html`, `edit-page-tpl.html`
+Tada notes is written in `php` and all data is stored in an `sqlite database` in the form of key value pairs. The piece of software, after build, consists of 3 files. `.htaccess`, `index.php`, `notes.data.sqlite`, `markdown.php`.
 
 Page Templates
 -------------
@@ -59,8 +62,7 @@ By default all page content is parsed using Markdown parser. If you don't want y
 
     [ [ tpl-static ] ]
 
-Todo
-----
-
-1. Login (yep)
-2. Support for includes from within a template file";s:5:"title";s:19:"Tada Notes (v0.0.1)";}
+Changelog
+-------------
+ - (v0.2) - 23 Oct 2012 - Refined the project to have a build process
+ - (v0.1) - 19 Oct 2010 - First draft for personal use";s:5:"title";s:19:"Tada Notes (v0.0.1)";}
