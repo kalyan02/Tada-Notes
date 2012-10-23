@@ -1,0 +1,19 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+#RewriteBase /
+
+SetEnvIf HTTP_Host ^notes.kalyanchakravarthy.net$ subdom
+
+#RewriteRule ^(.*)\.(html|tpl|css|js) index.php?param=$1 [NC]
+
+#<LocationMatch "/projects/notes">
+#RewriteBase /notes/
+#</LocationMatch>
+<IfDefine subdom>
+    RewriteBase /
+</IfDefine>
+#RewriteCond ${HTTP_HOST} ^notes\.kalyanchakravarthy.net
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php?param=$1 [NC]

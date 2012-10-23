@@ -1,0 +1,2 @@
+a:2:{s:7:"content";s:67:"<a href='home.html'>Home</a> |
+<a href='info.html'>Lorem Ipsum</a>";s:5:"title";s:10:"Navigation";}

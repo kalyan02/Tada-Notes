@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Edit template [[tpl:name]]</title>
+	<style type="text/css">
+	body { font:12px verdana; text-align:center; }
+	h1 { font-size:20px; font-weight:normal; border:0px solid red; margin:0; }
+	textarea { width:700px; height:500px; }
+	form { display:block; margin-top:15px; }
+	.status { background:#eee; display:block; margin:5px 0; padding:2px 2px; }
+
+	.admin-input { border:1px solid #ccc; padding:5px; font-size:12px; margin-bottom:5px; }
+	#container { border:1px solid #ccc; width:200px; padding:20px; margin:auto; text-align:left; margin-top:100px; }
+
+	</style>
+</head>
+<body>
+	<div id='container'>
+	<h1>Tada Admin Login</h1>
+	<span class='status'>[[tpl:status]]</span>
+	<form action='' method='post'>
+		<input type='password' class='admin-input' name='password'>
+		<input type='submit' name='admin-login' value='Login' />
+	</form>
+	</div>
+
+</body>
+</html>

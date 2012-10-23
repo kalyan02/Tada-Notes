@@ -1,0 +1,11 @@
+[[include:admin/top.template.html]]
+	<h2>Edit Page - [[tpl:name]] (<a href='[[tpl:viewurl]]'>view</a>)</h2>
+	[[tpl:status]]
+	<form action='' method='post'>
+		<input type='text' class='edit-title' name='page-title' value='[[tpl:title]]' />
+		<textarea name='page-content' class='edit-text'>[[tpl:content]]</textarea>
+		<input type='hidden' name='page-name' value="[[tpl:name]]" />
+		<input type='submit' name='save-page' value='Submit and Save' />
+		<input type='submit' name='delete-page' value='Delete' />
+	</form>
+[[include:admin/bottom.template.html]]

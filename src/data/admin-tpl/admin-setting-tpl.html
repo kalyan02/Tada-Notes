@@ -1,0 +1,24 @@
+[[include:admin/top.template.html]]
+	<h2>Change Password</h2>
+
+	<style type="text/css">
+	.admin-input { padding:5px; }
+	table td { border:0; }
+	.status { font-size:15px; padding:2px; width:300px; display:block;}
+	</style>	
+
+	<span class='status'>[[tpl:status]]</span>
+	<form action='' method='post'>
+		<table cellpadding='1' width='300'>
+		<tr>
+			<td>New Password</td>
+			<td><input type='password' class='admin-input' name='password'></td>
+		</tr>
+			<td>Again</td>
+			<td><input type='password' class='admin-input' name='password2'></td>
+		</tr>
+		<tr>
+			<td><input type='submit' name='admin-change-password' value='Change Password' /></td>
+		</tr>
+	</form>
+[[include:admin/bottom.template.html]]

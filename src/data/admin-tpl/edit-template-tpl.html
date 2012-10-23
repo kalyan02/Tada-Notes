@@ -1,0 +1,10 @@
+[[include:admin/top.template.html]]
+	<h2>Edit template [[tpl:name]]</h2>
+	[[tpl:status]]
+	<form action='' method='post'>
+		<textarea name='template-code' class='edit-text'>[[tpl:code]]</textarea>
+		<input type='hidden' name='template-name' value="[[tpl:name]]" />
+		<input type='submit' name='save-template' value='Submit and Save' />
+		<input type='submit' name='delete-template' value='Delete' />
+	</form>
+[[include:admin/bottom.template.html]]

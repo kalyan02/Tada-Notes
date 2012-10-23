@@ -1,0 +1,582 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Sour",
+				"SOURCE"
+			],
+			[
+				"sour",
+				"source_dir"
+			],
+			[
+				"sourc",
+				"SOURCE"
+			],
+			[
+				"php_inclu",
+				"php_include_raw_new"
+			],
+			[
+				"php_include",
+				"php_include_raw"
+			],
+			[
+				"php_inc",
+				"php_include_raw"
+			],
+			[
+				"php_in",
+				"php_include"
+			],
+			[
+				"php_star",
+				"php_start_line"
+			],
+			[
+				"php_en",
+				"php_end"
+			],
+			[
+				"php_end",
+				"php_end_line"
+			],
+			[
+				"preg_ma",
+				"preg_match_all"
+			],
+			[
+				"php",
+				"php_list"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"data",
+				"DATA_DIR"
+			],
+			[
+				"buil",
+				"BUILD"
+			],
+			[
+				"fetch",
+				"fetchDataPath"
+			],
+			[
+				"include",
+				"includes"
+			],
+			[
+				"DATA",
+				"DATA_DIR"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"Lamp",
+				"Lampshade"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Objects\n	- posts\n	- images\n	- links\n\nObject_Renderer\n	PostRenderer\n		post_tpl.php\n	ImageRenderer\n		image_tpl.php\n	LinkRenderer\n		link_tpl.php\n	GalleryRenderer\n		gallery_renderer.php\n\n\nEditor\n	Left panel\n		- All categories are tags\n			tag has the property of a category\n			for visibility in edits\n\n		- right panel\n			- 4 tabs\n				- \n\n\nPortfolio/Blog\n	- Snapjoy like interface for fetching photos & uploading photos\n	- Organize into albums and collection\n	- Portfolio Collections & Albums\n	- Posts\n		- Text\n		- Photos + Text\n		- Links\n",
+			"settings":
+			{
+				"buffer_size": 533,
+				"line_ending": "Unix",
+				"name": "Objects"
+			}
+		},
+		{
+			"file": "src/Tpl.class.php",
+			"settings":
+			{
+				"buffer_size": 1855,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Req.class.php",
+			"settings":
+			{
+				"buffer_size": 1585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Data.class.php",
+			"settings":
+			{
+				"buffer_size": 2965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.php",
+			"settings":
+			{
+				"buffer_size": 10215,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/build.php",
+			"settings":
+			{
+				"buffer_size": 895,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build.php",
+			"settings":
+			{
+				"buffer_size": 2808,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build/index.php",
+			"settings":
+			{
+				"buffer_size": 100088,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kchakravarthy/Dropbox/Projects/notes/src/Functions.php",
+		"/Users/kchakravarthy/Downloads/reskype/landertest/Assets/Resources/Atlases/LanderTest_Scale1.txt",
+		"/Users/kchakravarthy/Dropbox/Projects/notes/build/index.php",
+		"/Users/kchakravarthy/Dropbox/Projects/ll-fractals/fractal.html",
+		"/Users/kchakravarthy/Dropbox/Projects/ll-fractals",
+		"/Users/kchakravarthy/Zynga/Cafe-Trunk/public/util/questdata/jsondata/TOUGHGUY_QUEST_2_2.json",
+		"/Users/kchakravarthy/Zynga/Cafe-Trunk/public/util/dataCreationTools/questData.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Page does not exist",
+			"deep_path_traverse",
+			"markdown",
+			"log(",
+			"processPageIncludes",
+			"edit-page",
+			"processPageIncludes",
+			"-tpl",
+			"print_r",
+			"var_dump",
+			"yMin",
+			"yMax",
+			"xMax",
+			"xMin",
+			"B.",
+			"A.",
+			"otherRect",
+			"rect.",
+			"processPageIncludes",
+			"status",
+			"admin-",
+			"bacon",
+			".png",
+			"Floral Lampshade"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"build_log(",
+			"Y1",
+			"Y2",
+			"X2",
+			"X1",
+			"RectB.",
+			"RectA.",
+			"B",
+			"A."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Objects",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Tpl.class.php",
+					"settings":
+					{
+						"buffer_size": 1855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1679,
+								1679
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 374.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/Req.class.php",
+					"settings":
+					{
+						"buffer_size": 1585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Data.class.php",
+					"settings":
+					{
+						"buffer_size": 2965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1525,
+								1525
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/index.php",
+					"settings":
+					{
+						"buffer_size": 10215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8753,
+								8753
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4202.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/build.php",
+					"settings":
+					{
+						"buffer_size": 895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								895
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "build.php",
+					"settings":
+					{
+						"buffer_size": 2808,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2469,
+								2469
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 839.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "build/index.php",
+					"settings":
+					{
+						"buffer_size": 100088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13816,
+								13816
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7693.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"src/index.php"
+			],
+			[
+				"req",
+				"src/Req.class.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true
+}

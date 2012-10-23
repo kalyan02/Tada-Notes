@@ -1,0 +1,7 @@
+/*
+ The [[tpl-static]] variable lets you not use markdown parser.
+ Empty template will only show the content as is.
+ Pages with .css, .js, etc content types will be displayed with their mime type
+ */
+
+[[tpl:content]]

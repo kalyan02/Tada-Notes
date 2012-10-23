@@ -1,0 +1,50 @@
+<!--
+[[set date: ]]
+-->
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>[[tpl:title]]</title>
+<style type='text/css'>
+body { text-align:center; margin:auto;  }
+body { font:16px Times; }
+
+#container { text-align:left; width:780px; margin:auto; margin-top:20px; margin-bottom:10px; border:1px solid #fff; }
+#foot { font-size:14px; display:block; clear:both; border-top:1px solid #ccc; padding-top:10px; margin-top:10px }
+#body { margin-bottom:10px; display:block; }
+#links { float:right; }
+
+.date { color:#ccc; }
+
+a { color:#1870de; text-decoration:underline; padding:0px 2px; }
+a:hover { background:#1870de; color:#fff; text-decoration:none}
+
+code { background:#ddd; padding:0px 4px 1px 4px; font-size:13px; }
+pre code { background: #eee; display:block; padding:3px 4px 4px 4px }
+p { line-height:20px }
+h1 { font-size:40px; font-weight:normal; }
+h2 { font-size:24px; font-weight:normal; border-bottom:1px solid #ccc; }
+h3 { font-weight:normal; }
+</style>
+</head>
+<body>
+<div id='container'>
+<div id='head'>
+
+<div id='links'
+<a href='home.html'>Home</a> |
+<a href='info.html'>Lorem Ipsum</a> | 
+<a href='[[tpl:base]]/tada-notes.html'>Tada notes info</a>
+</div>
+
+<h1>[[tpl:title]]</h1>
+</div>
+<div id='body'>
+<span class='date'>[[tpl:date]]</span>
+[[tpl:content]]
+</div>
+<span id='foot'>&copy; Kalyan. Powered by <a href='[[tpl:base]]/tada-notes.html'>tada-notes</span>
+</div>
+</body>
+</html>
