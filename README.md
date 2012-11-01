@@ -1,3 +1,10 @@
+Demo
+-----
+
+URL : [http://kalyanchakravarthy.net/projects/tada-notes-v0.2rc](http://kalyanchakravarthy.net/projects/tada-notes-v0.2rc)
+
+Admin password : tada
+
 About
 -----
 
